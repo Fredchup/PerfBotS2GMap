@@ -1,7 +1,7 @@
 http_proxy=http://proxy.ethz.ch:3128 apt-get install linux-tools-generic
 http_proxy=http://proxy.ethz.ch:3128 apt-get install linux-tools-5.15.0-43-generic
 
-cd ..
+
 . ./source_me.sh
 make -j48
 cd test_scripts
